@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: ndcadmin
+Build-Jdk: 14.0.2
+Implementation-Title: spring-cloud-config-client
+Implementation-Version: 1.0.0
+Implementation-Vendor-Id: cn.wbnull
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/spring-cloud-demo/spring-cloud-config-client
+Created-By: Maven Integration for Eclipse
+
