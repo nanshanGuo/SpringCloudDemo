@@ -10,7 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/nanshanGuo/springcloud-parent
+          uri: https://github.com/nanshanGuo/SpringCloudDemo
           search-paths: spring-cloud-config-repo
           username: ""
           password: ""
