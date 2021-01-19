@@ -10,17 +10,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>spring-boot-provider</module>
-        <module>spring-boot-consumer</module>
         <module>spring-cloud-eureka</module>
-        <module>spring-boot-provider-v2</module>
-        <module>spring-boot-consumer-feign</module>
-        <module>spring-boot-consumer-hystrix</module>
-        <module>spring-boot-consumer-feign-hystrix</module>
-        <module>spring-cloud-zuul</module>
         <module>spring-cloud-config-server</module>
         <module>spring-cloud-config-client</module>
-        <module>spring-cloud-zipkin</module>
     </modules>
 
     <parent>
