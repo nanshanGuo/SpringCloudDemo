@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h1>Demoデータ表示</h1>
+    <table>
+        <thead>
+        <tr>
+            <th> version </th>
+            <th> profile </th>
+        </tr>
+        </thead>
+        <tbody>
+<!--         <tr th:if="${demoList.empty}"> -->
+<!--             <td colspan="2"> No data </td> -->
+<!--         </tr> -->
+        <tr th="${demo}">
+            <td><span th:text="${demo.version}"> version</span></td>
+            <td><span th:text="${demo.profile}"> profile </span></td>
+<!--             <td><span th:text="${demo.age}"> Age </span></td> -->
+<!--             <td><span th:text="${demo.fromDataSource}"> DataSource </span></td> -->
+        </tr>
+        </tbody>
+    </table>
+</div>
+<hr/>
+<!-- <div> -->
+<!--     <h1>Demoデータ追加</h1> -->
+<!--     <form th:action="@{/form}" method="post" th:object="${demoForm}"> -->
+<!--         <table><thead><tr><th>name</th><th>age</th></tr></thead><tbody><tr><td><input type="text" id="name" th:field="*{name}" /></td><td><input type="text" th:field="*{age}" /></td> </tr></tbody></table> -->
+<!--         <br/> -->
+
+<!--         <input type="submit" value="Submit" /> -->
+<!--     </form> -->
+<!-- </div> -->
+</body>
+</html>

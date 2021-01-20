@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import cn.wbnull.springcloudconfig.Entity.TestClass;
+
 /**
  * 入口类
  *
@@ -11,15 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
  *         https://github.com/dkbnull/SpringCloudDemo
  */
 @RestController
-//@Scope("prototype")
-//@RefreshScope
 public class GatewayController {
 
-//    @Value("${version}")
-//    private String version;
-//
-//    @Value("${profile}")
-//    private String profile;
     @Autowired
     TestClass clsss;
     

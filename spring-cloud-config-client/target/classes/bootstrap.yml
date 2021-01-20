@@ -6,6 +6,10 @@ spring:
       uri: http://127.0.0.1:8092/springcloudconfig
       profile: dev
       label: master
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+  
       
 eureka:
   client: # 客户端进行Eureka注册的配置
